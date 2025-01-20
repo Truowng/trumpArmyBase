@@ -20,7 +20,7 @@ body {
   font-family: "Inter", serif;
   background-color: #fff;
   overflow-x: hidden;
-  background: url(../images/trumpBg.jpeg) center no-repeat;
+  background: url(../images/trumpBg.webp) center no-repeat;
   background-size: cover;
 }
 

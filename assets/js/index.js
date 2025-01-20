@@ -3,29 +3,6 @@ const scriptURL =
 
 const form = document.querySelector("#form");
 const submitBtn = document.querySelector(".form .btn-submit");
-// const links = document.querySelectorAll(".link-btn");
-// console.log(links);
-// let count = 0;
-
-// links.forEach((link) => {
-//   link.addEventListener("click", () => {
-//     if (link.getAttribute("data-clicked") == "false") {
-//       count++;
-//       link.setAttribute("data-clicked", "true");
-//     }
-//     if (count == links.length) {
-//       {
-//         submitBtn.disabled = false;
-//         submitBtn.setAttribute("status", "enabled");
-//       }
-//     }
-//   });
-// });
-
-// if (count != links.length) {
-//   submitBtn.disabled = true;
-//   submitBtn.setAttribute("status", "disabled");
-// }
 
 if (submitBtn) {
   form.addEventListener("submit", (e) => {
